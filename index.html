@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task List</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <input type="search" />
+    <button type="submit" onclick="addData()">Add Task</button>
+    <button type="submit" onclick="deleteData()">Delete All Tasks</button>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th class="taskCell">Task</th>
+            <th>Hour</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="id">1</td>
+            <td class="taskCell">
+              <input
+                type="text"
+                id="taskInput"
+                placeholder="A Short Description"
+              />
+            </td>
+            <td class="hourCell">
+              <input type="time" name="" id="hourInput" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

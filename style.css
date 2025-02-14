@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+input{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+div{
+    width: fit-content;
+    height: 30rem;
+    overflow-y: scroll;
+}
+
+table{
+    border-collapse: collapse;
+    gap: 0;
+    margin: 1rem;
+}
+th{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+}
+td{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+th,td{
+    border: solid .15rem black;
+    width: 2rem;
+    height: 1.5rem;
+}
+td>input{
+    height: 1.5rem;
+    text-align: start;
+    outline: none;
+    border: none;
+}
+#taskInput{
+    padding: 0;
+    margin: 0;
+    width: 20rem;
+}
+#hourInput{
+    padding: 0;
+    margin: 0;
+    width: 5rem;
+}
